@@ -114,9 +114,3 @@ pada CPU akan jauh lebih lama.
 ├── requirements.txt
 └── README.md
 ```
-
-## Catatan yang perlu diperhatikan
-
-- Sel evaluasi Sparse AE melempar `AttributeError: 'tuple' object has no attribute 'cpu'`
-  saat menghitung latensi, sehingga latensi Sparse AE tampil `nan` di tabel akhir.
-  Metrik rekonstruksi Sparse AE sendiri tetap valid.
